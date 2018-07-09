@@ -9,8 +9,8 @@ class Pet():
         self.name = name
         self.animal_type = animal_type
 
-    def owner_assignment(self, owner):
-        self.owner = owner
+    def owner_assignment(self, owner_name):
+        self.owner = owner_name
 
     def __str__(self):
         return f'My name is {self.name}. I have {self.animal_type.leg_num} legs. {self.animal_type.speak()}'
